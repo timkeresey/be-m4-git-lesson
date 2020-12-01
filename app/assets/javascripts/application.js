@@ -13,3 +13,14 @@
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
+const heyThere = () => {
+  return 'Hello, there!'
+};
+
+const sayBye = () => {
+  return 'Goodbye!'
+};
+
+const runAwaay = () => {
+  return { running: true }
+};
